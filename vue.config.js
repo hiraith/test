@@ -1,6 +1,6 @@
 module.exports = {
   assetsDir: "static",
-  outputDir: "./static",
+  outputDir: "./docs",
   indexPath: "./index.html",
 //  devServer: {
 //    proxy: "http://localhost:4200",
