@@ -1,0 +1,66 @@
+create table employees (
+emp_id int not null,
+emp_pw varchar(30),
+emp_name varchar(30),
+emp_email varchar(30),
+position varchar(20),
+hire_date date,
+extension_number varchar(20),
+phone_number varchar(20),
+dep_id int,
+PRIMARY KEY (emp_id)
+);
+ out_id        | int(11)     | NO   | PRI | NULL    |       |
+| out_name      | varchar(30) | YES  |     | NULL    |       |
+| out_mobile    | varchar(20) | YES  |     | NULL    |       |
+| out_email     | varchar(30) | YES  |     | NULL    |       |
+| out_company   | varchar(30) | YES  |     | NULL    |       |
+| out_dep_phone | varchar(20) |
+
+INSERT INTO employees VALUES (10001,'1111','김지영','gilong@gmail.com','대표',now(),'070-579-1111','010-9053-8221',0);
+INSERT INTO employees VALUES (10002,'2222','송은선','eunsun@gmail.com','부장',now(),'070-579-2222','555-3551-5555',1);
+INSERT INTO employees VALUES (10003,'3333','전시언','jelly@gmail.com','부장',now(),'070-579-3333','555-3551-5555',2);
+INSERT INTO employees VALUES (10004,'4444','이승현','cutie@gmail.com','부장',now(),'070-579-4444','555-3551-5555',3);
+INSERT INTO employees VALUES (10005,'5555','정준희','vuegod@gmail.com','부장',now(),'070-579-5555','555-3551-5555',4);
+INSERT INTO employees VALUES (10023,'2323','이동해','dong@naver.com','사원',now(),'070-579-3555','555-3551-5555',1000);
+INSERT INTO employees VALUES (10007,'7777','김혜림','nobody@daum.net','사원',now(),'070-579-3555','555-3551-5555',1000);
+INSERT INTO employees VALUES (10008,'8888','정택운','vixx@daum.net','대리',now(),'070-579-3555','555-3551-5555',1100);
+INSERT INTO employees VALUES (10009,'9999','오혜린','ohohoh@gmail.com','과장',now(),'070-579-3555','555-3551-5555',1100);
+INSERT INTO employees VALUES (10010,'1010','최민기','len@naver.com','사원',now(),'070-579-3555','10-1011-101055',1400);
+INSERT INTO employees VALUES (10011,'1101','어남선','ryu@naver.com','대리',now(),'070-579-3555','10-1011-101055',1400);
+INSERT INTO employees VALUES (10012,'1212','김경호','rock@daum.net','대리',now(),'070-579-3555','10-1011-101055',1300);
+INSERT INTO employees VALUES (10013,'1313','이세진','lin_love@naver.com','사원',now(),'070-579-3555','10-1011-101055',1300);
+INSERT INTO employees VALUES (10014,'1414','문별이','moonstar@naver.com','과장',now(),'070-579-3555','10-1011-101055',1300);
+INSERT INTO employees VALUES (10015,'1515','방철용','bang@gmail.com','사원',now(),'070-579-3555','10-1011-101055',1300);
+INSERT INTO employees VALUES (10016,'1616','권민아','mina@naver.com','사원',now(),'070-579-3555','10-1011-101055',1200);
+INSERT INTO employees VALUES (10017,'1717','황민현','hwang@daum.net','사원',now(),'070-579-3555','10-1011-101055',1200);
+INSERT INTO employees VALUES (10018,'1818','노민우','nonono@gmail.com','사원',now(),'070-579-3555','10-1011-101055',1200);
+INSERT INTO employees VALUES (10019,'1919','서주현','girls@gmail.com','과장',now(),'070-579-3555','10-1011-101055',1200);
+INSERT INTO employees VALUES (10020,'2020','전소민','generation@daum.net','대리',now(),'070-579-3555','10-1011-101055',1200);
+INSERT INTO employees VALUES (10021,'2121','김용선','len@naver.com','사원',now(),'070-579-3555','10-1011-101055',1400);
+INSERT INTO employees VALUES (10022,'2222','민윤기','len@naver.com','과장',now(),'070-579-3555','10-1011-101055',1400);
+
+INSERT INTO customer VALUES (2,0, 32,'석삼');
+
+
+INSERT INTO outaddress VALUES (1,'김태연','010-7777-2222','godgod@naver.com','SM엔터테인먼트','02-6240-9800');
+INSERT INTO outaddress VALUES (2,'맥켄지','010-5555-5552','roajtwla@naver.com','할리우드','010-4093-7528');
+INSERT INTO outaddress VALUES (3,'정려원','010-3333-0809','rktn@naver.com','키이스트','02-3444-2002');
+INSERT INTO outaddress VALUES (4,'권보아','010-1412-5645','BOA@naver.com','SM엔터테인먼트','02-2222-5555');
+INSERT INTO outaddress VALUES (5,'임재범','010-4466-4848','leem@naver.com','내가외로울땐','070-1414-5654');
+INSERT INTO outaddress VALUES (6,'김지연','010-1458-6873','jiii@naver.com','한성사업','031-3367-6865');
+INSERT INTO outaddress VALUES (7,'김윤지','010-0475-2355','yoyo@naver.com','요요통신','02-3342-1415');
+INSERT INTO outaddress VALUES (8,'강예솔','010-9462-9007','sol@naver.com','신나라','02-4443-3365');
+INSERT INTO outaddress VALUES (9,'강희건','010-2234-9452','gun@naver.com','이케아','070-4820-5950');
+INSERT INTO outaddress VALUES (10,'김윤성','010-4542-3407','yoon@naver.com','레고','02-3479-1133');
+INSERT INTO outaddress VALUES (11,'임수진','010-9068-9055','yap@naver.com','오라클','080-2194-114');
+INSERT INTO outaddress VALUES (12,'김종민','010-8457-1311','jong@naver.com','펩시','02-397-8000');
+INSERT INTO outaddress VALUES (13,'김동현','010-6835-6684','dong@naver.com','리복','02-3479-1133');
+INSERT INTO outaddress VALUES (14,'공지철','010-1136-8672','gong@naver.com','스카이프','02-3479-1133');
+INSERT INTO outaddress VALUES (15,'조규현','010-3456-7579','hhhe@naver.com','소니','02-3479-1133');
+INSERT INTO outaddress VALUES (16,'김기범','010-9566-3335','gigisi@naver.com','스타벅스','02-3479-1133');
+INSERT INTO outaddress VALUES (17,'김태우','010-9951-6679','lalala@naver.com','아마존','02-3479-1133');
+INSERT INTO outaddress VALUES (18,'김유빈','010-2265-9872','youyou@naver.com','캐논','02-3479-1133');
+INSERT INTO outaddress VALUES (19,'김희정','010-4544-6203','hee@naver.com','구글코리아','02-3479-1133');
+INSERT INTO outaddress VALUES (20,'김성경','010-6978-3963','bible@naver.com','하겐다즈','02-3479-1133');
+INSERT INTO outaddress VALUES (21,'임진아','010-1100-3756','lim@naver.com','삼성생명','02-3479-1133');
